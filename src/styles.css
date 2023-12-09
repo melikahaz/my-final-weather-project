@@ -1,0 +1,41 @@
+body {
+  background-image: url(pexels-veeterzy-39811.jpg);
+  background-size: 107%;
+  font-family: "Maven Pro", sans-serif;
+}
+.background-color {
+  background-color: #bcb5ad;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+.search-form-input {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  width: 60%;
+  font-size: 16px;
+  padding: 15px 20px;
+  display: block;
+  margin: 0 auto;
+}
+.search-form-button {
+  background: #885df1;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+.details {
+  text-align: center;
+}
+.description {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
