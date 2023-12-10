@@ -14,7 +14,7 @@
     <title>weather</title>
   </head>
   <body>
-    <div class="background-color">
+    <div class="weather-app">
       <header>
         <form>
           <input
@@ -29,10 +29,9 @@
       <main>
         <div>
           <h1>San Francisco</h1>
-          <p>
-            30°C<br />
-            ☀
-          </p>
+          <p class="temperature-degree">30°C</p>
+          <span class="city-icon"> ☀</span>
+
           <span class="details">
             sunday
             <br />
@@ -41,37 +40,21 @@
           <p class="description">🌪3.50km/h 💧55% Humidity ☔Rainy</p>
         </div>
       </main>
-       <p class="week">
-        <div class="container">
-          <div class="row">
-            <div class="col-2">
-              <div>Monday</div>
-              <div class="icon">⛅</div>
-              <div>17°</div>
-            </div>
-            <div class="col-2">
-              <div>Tuesday</div>
-              <div class="icon">⛅</div>
-              <div>19°</div>
-            </div>
-            <div class="col-2">
-              <div>Wednesday</div>
-              <div class="icon">🌧</div>
-              <div>17°</div>
-            </div>
-            <div class="col-2">
-              <div>Thursday</div>
-              <div class="icon">🌧</div>
-              <div>20°</div>
-            </div>
-            <div class="col-2">
-              <div>Friday</div>
-              <div class="icon">☀</div>
-              <div>20°</div>
+      <div class="weather-forecast">
+        <div class="row">
+          <div class="col-2">
+            <div class="weather-forecast-date">Mon</div>
+            <div class="weather-forecast-icon">🌤️</div>
+            <div class="weather-forecast-temperatures">
+              <span class="weather-forecast-temperature">
+                <strong>15º</strong>
+              </span>
+              <span class="weather-forecast-temperature">9º</span>
             </div>
           </div>
         </div>
-    </p>
+      </div>
+
       <footer>
         This project was coded by <a href="">Melika Hazrati</a>, is
         <a href="">Open-sourced on GitHub</a>
