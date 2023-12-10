@@ -10,34 +10,41 @@
       href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>weather</title>
   </head>
   <body>
     <div class="weather-app">
       <header>
-        <form>
+        <form id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
             class="search-form-input"
+            id="search-input"
           />
           <input type="submit" value="search" class="search-form-button" />
         </form>
       </header>
       <main>
         <div>
-          <h1>San Francisco</h1>
-          <p class="temperature-degree">30°C</p>
-          <span class="city-icon"> ☀</span>
+          <h1 id="city-name"></h1>
+          <p class="temperature-degree" id="temperature">°C</p>
+          <span class="city-icon" id="icon"></span>
 
           <span class="details">
-            sunday
+            <span id="time"></span>
             <br />
-            14:30
+            <span id="time"></span>
           </span>
-          <p class="description">🌪3.50km/h 💧55% Humidity ☔Rainy</p>
+          <p class="description">
+            🌪 <strong class="wind" id="wind-speed"> 3.50km/h </strong>💧<strong
+              id="humidity"
+              >55% Humidity</strong
+            ><span class="describe-icon">☔</span
+            ><strong class="describe" id="description">Rainy</strong>
+          </p>
         </div>
       </main>
       <div class="weather-forecast" id="forecast"></div>

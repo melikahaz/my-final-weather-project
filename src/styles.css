@@ -6,7 +6,10 @@ body {
 main {
   padding: 30px 0;
 }
-
+a {
+  color: #251f33;
+  text-decoration: none;
+}
 .weather-app {
   background-color: #bcb5ad;
   opacity: 0.7;
@@ -26,7 +29,7 @@ main {
   padding: 15px 20px;
 }
 .search-form-button {
-  background: #885df1;
+  background: #251f33;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -41,12 +44,12 @@ h1 {
 }
 .temperature-degree {
   text-align: center;
-  font-size: 45px;
+  font-size: 50px;
 }
 .city-icon {
   display: block;
   text-align: center;
-  font-size: 80px;
+  font-size: 90px;
 }
 .details {
   display: block;
@@ -69,7 +72,7 @@ h1 {
 
 .weather-forecast-date {
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(1, 1, 1, 0.7);
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
@@ -81,7 +84,7 @@ h1 {
 }
 .weather-forecast-temperatures {
   text-align: center;
-  color: #f65282;
+  color: #251f33;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -90,7 +93,13 @@ h1 {
 .weather-forecast-temperature {
   padding: 0 10px;
 }
+.wind {
+  margin-right: 25px;
+}
 
+.describe-icon {
+  margin-left: 25px;
+}
 footer {
   margin-top: 30px;
   text-align: center;
