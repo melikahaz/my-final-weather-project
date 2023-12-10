@@ -13,6 +13,7 @@ a {
 .weather-app {
   background-color: #bcb5ad;
   opacity: 0.7;
+  max-width: 600px;
   border-radius: 25px;
   margin: 0 auto;
   margin-top: 50px;
